@@ -1,0 +1,2 @@
+SpoTube Downloader is an application that allows users to input a Spotify playlist URL and download the songs in MP3 format from YouTube.
+The app scrapes the playlist details, searches for the songs on YouTube, and stores them in a custom folder, maintaining the original playlist order.
