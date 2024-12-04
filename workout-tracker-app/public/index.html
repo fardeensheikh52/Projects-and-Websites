@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Tracker</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Workout Tracker</h1>
+    <div id="tabs">
+        <img src="images/chest.png" alt="Chest" onclick="selectMuscleGroup('Chest')">
+        <img src="images/back.png" alt="Back" onclick="selectMuscleGroup('Back')">
+        <img src="images/legs.png" alt="Legs" onclick="selectMuscleGroup('Legs')">
+    </div>
+    <div id="workout-list"></div>
+    <form id="workout-form">
+        <input type="text" id="name" placeholder="Workout Name" required>
+        <input type="number" id="sets" placeholder="Sets" required>
+        <input type="number" id="reps" placeholder="Reps" required>
+        <button type="submit">Add Workout</button>
+    </form>
+    <script src="js/main.js"></script>
+</body>
+</html>
