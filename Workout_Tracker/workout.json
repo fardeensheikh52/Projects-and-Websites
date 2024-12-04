@@ -1,0 +1,23 @@
+[
+  {
+    "id": 2,
+    "name": "Deadlift",
+    "muscleGroup": "Back",
+    "sets": 4,
+    "reps": 10
+  },
+  {
+    "id": 3,
+    "name": "Squat",
+    "muscleGroup": "Legs",
+    "sets": 4,
+    "reps": 12
+  },
+  {
+    "id": 1733270897197,
+    "name": "push ups",
+    "muscleGroup": "Chest",
+    "sets": "3",
+    "reps": "9"
+  }
+]
